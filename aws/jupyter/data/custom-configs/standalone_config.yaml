@@ -1,0 +1,17 @@
+AI_applications:
+  shield_frameworks: ["langchain", "opensearch"]
+  sales_model:
+    implementation_class: "services.Bedrock_Application.BedrockClient.BedrockClient"
+    vectordb:
+      index_name: "paig_quickstart_vector_index"
+      vector_type: "opensearch"
+
+bedrock:
+  embedding_model: "amazon.titan-embed-text-v1"
+  model: "amazon.titan-tg1-large"
+  region: "us-west-2"
+
+opensearch:
+  user: "admin"
+  password: "admin"
+  hosts: "opensearch-node1:9200"

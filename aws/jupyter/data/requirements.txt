@@ -1,0 +1,2 @@
+privacera_securechat==1.0.2
+unstructured==0.14.4
