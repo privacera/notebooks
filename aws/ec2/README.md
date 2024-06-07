@@ -66,14 +66,15 @@ sudo yum install -y git
 
 ### Download the repo
 ```buildoutcfg
-git clone https://gitlab.com/privacera/paig/paig-opensearch-governance-demo.git
+git clone https://github.com/privacera/notebooks.git
 ```
 
 ### Start the services
 This will start docker containers for JupyterHub and OpenSearch. It will also mount the required volumes for the 
 services.
 ```buildoutcfg
-./paig-aws-quickstart start
+cd notebooks/aws/ec2
+./paig-aws-quickstart.sh start
 ```
 
 ### Stop the services

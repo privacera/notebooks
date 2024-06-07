@@ -29,7 +29,7 @@ if [ "$action" = "restart" ] || [ "$action" = "start" ]; then
     docker-compose $PROJECT up -d
     HOSTNAME=`hostname -i`
     ./wait-for-it.sh -t 120 $HOSTNAME:8888
-    echo "Login using http://${HOSTNAME}:8888/lab/tree/work/opensearch_demo.ipynb"
+    echo "Login using http://${HOSTNAME}:8888/lab/tree/work/opensearch_vectordb_setup.ipynb"
     echo "Token: welcome1"
 fi
 
