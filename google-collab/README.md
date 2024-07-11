@@ -23,6 +23,6 @@ Notebooks:
 </br>
 
 <a target="_blank" href="https://colab.research.google.com/github/privacera/notebooks/blob/main/google-collab/paig_milvus_collab.ipynb">
-  paig_milvus.ipynb
+  paig_milvus_collab.ipynb
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
